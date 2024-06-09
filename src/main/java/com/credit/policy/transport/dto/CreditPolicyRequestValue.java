@@ -18,8 +18,6 @@ public class CreditPolicyRequestValue {
             return false;
         if (this.paymentRemarks < 1)
             return false;
-        if (this.paymentRemarks12m < 1)
-            return false;
-        return true;
+        return this.paymentRemarks12m >= 1;
     }
 }
