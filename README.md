@@ -41,46 +41,8 @@ A java service developed using the Spring Boot Framework for processing credit p
 
 ### 2 example 400 bad request responses:
 
-#### example 1:
+#### (if any field is missing)
 
-```json 
-{  
-	"customer_income": [  
-		"This field is required."  
-	],  
-	"customer_debt": [  
-		"This field is required."  
-	],  
-	"payment_remarks_12m": [  
-		"This field is required."  
-	],  
-	"payment_remarks": [  
-		"This field is required."  
-	],  
-	"customer_age": [  
-		"This field is required."  
-	]  
-}
+``` 
+not a valid request object
 ```
-
-#### example 2:
-
-```json 
-{  
-	"customer_income": [  
-		"A valid integer is required."  
-	],
-	"customer_debt": [  
-		"A valid integer is required."  
-	],
-	"payment_remarks_12m": [  
-		"A valid integer is required."  
-	],
-	"payment_remarks": [  
-		"A valid integer is required."  
-	],
-	"customer_age": [  
-		"A valid integer is required."  
-	]
-}  
-```  
