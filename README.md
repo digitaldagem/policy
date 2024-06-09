@@ -35,7 +35,7 @@ A java service developed using the Spring Boot Framework for processing credit p
 
 ```json 
 {  
-	"response": "ACCEPTED"  
+	"response": "ACCEPT"  
 }  
 ```  
 
