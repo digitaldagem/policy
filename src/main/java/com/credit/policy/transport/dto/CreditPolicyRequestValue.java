@@ -10,14 +10,14 @@ public class CreditPolicyRequestValue {
     int paymentRemarks;
     int paymentRemarks12m;
     public boolean validate() {
-        if (this.customerAge < 1)
+        if (this.customerAge == 0)
             return false;
-        if (this.customerDebt < 1)
+        if (this.customerDebt == 0)
             return false;
-        if (this.customerIncome < 1)
+        if (this.customerIncome == 0)
             return false;
-        if (this.paymentRemarks < 1)
+        if (this.paymentRemarks == 0)
             return false;
-        return this.paymentRemarks12m >= 1;
+        return this.paymentRemarks12m >= 0;
     }
 }
