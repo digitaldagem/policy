@@ -1,5 +1,4 @@
-
-# CREDIT-POLICY
+# POLICY
 A java service developed using the Spring Boot Framework for processing credit policy requests.
 
 ## How to run locally:
