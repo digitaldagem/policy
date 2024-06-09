@@ -15,11 +15,11 @@ A java service developed using the Spring Boot Framework for processing credit p
 
 ```json 
 {  
-	"customer_income": 1000,  
-	"customer_debt": 500,  
-	"payment_remarks_12m": 0,  
-	"payment_remarks": 1,  
-	"customer_age": 20  
+	"customerAge": 20,
+	"customerDebt": 500,  
+	"customerIncome": 1000,
+	"paymentRemarks": 1,
+	"paymentRemarks12m": 0
 }  
 ```  
 
